@@ -19,7 +19,7 @@
 apktool d 反编译Apk名字.apk
 ```
 
-<img src="screenshot/15527404836669.jpg" width = "430"/>
+<img src="screenshot/15527404836669.jpg" width = "450"/>
 
 如果反编译出来多个smali文件夹，可以用ant写个脚本，多个文件夹合并成一个
 
@@ -29,7 +29,7 @@ AndroidStudio如果要调试smali代码，需要安装第三方插件: smalidea
 
 AS中【Android Studio-->Preferences-->Plugins-->Install plugin from desk...】，安装插件
 
-<img src="screenshot/15527361943963.jpg" width = "430"/>
+<img src="screenshot/15527361943963.jpg" width = "450"/>
 
 ### AS导入smali
 
@@ -39,13 +39,13 @@ AS中【Android Studio-->Preferences-->Plugins-->Install plugin from desk...】�
 
 PS: 也可以使用我配置好的项目 "ApkSampleSmali" 进行测试
 
-<img src="screenshot/15527408989097.jpg" width = "430"/>
+<img src="screenshot/15527408989097.jpg" width = "450"/>
 
 ### AS动态调试配置
 
 新建调试配置，【Run-->Edit Configurations--> + -->Remote】，name随意，端口8700
 
-<img src="screenshot/15527376885535.jpg" width = "430"/>
+<img src="screenshot/15527376885535.jpg" width = "450"/>
 
 ### 动态调试
 
@@ -53,7 +53,7 @@ PS: 也可以使用我配置好的项目 "ApkSampleSmali" 进行测试
 
 * 然后点击 “Attach debuger to Android Process” ，如下图标记2
 
-<img src="screenshot/15527409895149.jpg" width = "430"/>
+<img src="screenshot/15527409895149.jpg" width = "450"/>
 
 ### 运行环境信息
 
