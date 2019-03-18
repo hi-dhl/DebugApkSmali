@@ -21,7 +21,7 @@ apktool d 反编译Apk名字.apk
 
 <img src="screenshot/15527404836669.jpg" width = "450"/>
 
-如果反编译出来多个smali文件夹，可以用ant写个脚本，多个文件夹合并成一个
+如果反编译出来多个smali文件夹，可以用ant写个脚本，多个文件夹合并成一个（ps: 有需要的可以留言）
 
 ### smalidea
 
@@ -54,6 +54,8 @@ PS: 也可以使用我配置好的项目 "ApkSampleSmali" 进行测试
 * 然后点击 “Attach debuger to Android Process” ，如下图标记2
 
 <img src="screenshot/15527409895149.jpg" width = "450"/>
+
+* 选择你要调试的进程，手动进入对应功能, 即进入断点动态调试
 
 ### 运行环境信息
 

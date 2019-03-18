@@ -1,0 +1,85 @@
+.class final Lcom/flurry/sdk/lj$1;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lcom/flurry/sdk/ks;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/flurry/sdk/lj;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/flurry/sdk/ks",
+        "<",
+        "Lcom/flurry/sdk/kb;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/flurry/sdk/lj;
+
+
+# direct methods
+.method constructor <init>(Lcom/flurry/sdk/lj;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/flurry/sdk/lj$1;->a:Lcom/flurry/sdk/lj;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic a(Lcom/flurry/sdk/kr;)V
+    .locals 4
+
+    check-cast p1, Lcom/flurry/sdk/kb;
+
+    const/4 v0, 0x4
+
+    iget-object v1, p0, Lcom/flurry/sdk/lj$1;->a:Lcom/flurry/sdk/lj;
+
+    iget-object v1, v1, Lcom/flurry/sdk/lj;->b:Ljava/lang/String;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "onNetworkStateChanged : isNetworkEnable = "
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-boolean v3, p1, Lcom/flurry/sdk/kb;->a:Z
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v0, v1, v2}, Lcom/flurry/sdk/kx;->a(ILjava/lang/String;Ljava/lang/String;)V
+
+    iget-boolean v0, p1, Lcom/flurry/sdk/kb;->a:Z
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lcom/flurry/sdk/lj$1;->a:Lcom/flurry/sdk/lj;
+
+    invoke-virtual {v0}, Lcom/flurry/sdk/lj;->b()V
+
+    :cond_0
+    return-void
+.end method
