@@ -29,7 +29,7 @@ AndroidStudio如果要调试smali代码，需要安装第三方插件: smalidea
 
 AS中【Android Studio-->Preferences-->Plugins-->Install plugin from desk...】，安装插件
 
-<img src="screenshot/15527361943963.jpg" width = "450"/>
+<img src="screenshot/15527361943963.jpg" width = "350"/>
 
 ### AS导入smali
 
